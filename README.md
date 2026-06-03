@@ -1,5 +1,3 @@
 # EDPM-codes
 
-R code for implementing paired network inference for test of equality and test of scaling for a wide variety of random graph models. Includes methods proposed in the paper "A Bootstrap-based Inference Framework for Testing Similarity of Paired Networks" by Somnath Bhadra, Kaustav Chakraborty, Srijan Sengupta, and Soumendra Lahiri. Please see the arXiv version of the paper at https://arxiv.org/abs/1911.06869 to use the codes. Codes also include tests proposed in two previous papers, as described below.
-
-Use all_models.R as your source file to load the R functions for paired network inference. Description for the functions is given below. Please cite the paper "A Bootstrap-based Inference Framework for Testing Similarity of Paired Networks" by Somnath Bhadra, Kaustav Chakraborty, Srijan Sengupta, and Soumendra Lahiri (arXiv version at https://arxiv.org/abs/1911.06869) if you use the codes.
+R code for implementing Variational Bayes to get the truncation and calculate the cluster values, and then using the cluster values, fitting an EDPM model. Includes methods proposed in the paper "Variational Bayes and Truncation Approximation for Enriched Dirichlet process mixtures: by Somnath Bhadra and Michael J. Daniels. Please see the arxiv version of the paper at https://arxiv.org/abs/2603.12427 to use the codes.
