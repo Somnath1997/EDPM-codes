@@ -4,3 +4,5 @@ R code for implementing Variational Bayes to get the truncation and calculate th
 
 
 For the initial prior distributions, one can change the parameters (mean and sd) to one's likings.
+
+To run the codes, first run the VB code to calculate the Cluster values for the EDPM truncation. Then use those cluster values as K and L accordingly to plug in and  run the EDPM code.
